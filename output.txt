@@ -1,0 +1,4 @@
+List notation: MEM
+List notation: NIL
+List notation: UNI
+List notation: (2 3 5)
