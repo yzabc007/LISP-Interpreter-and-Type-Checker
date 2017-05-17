@@ -1,0 +1,14 @@
+Dot notation: (CAR . ((QUOTE . ((A . (B . (C . NIL))) . NIL)) . NIL))
+->List notation: A
+Dot notation: (CDR . ((QUOTE . ((A . (B . (C . NIL))) . NIL)) . NIL))
+->List notation: (B C)
+Dot notation: (CONS . ((QUOTE . (A . NIL)) . ((QUOTE . ((B . (C . NIL)) . NIL)) . NIL)))
+->List notation: (A B C)
+Dot notation: (CDR . ((QUOTE . ((A . NIL) . NIL)) . NIL))
+->List notation: NIL
+Dot notation: (CAR . ((QUOTE . (((A . (B . NIL)) . (C . NIL)) . NIL)) . NIL))
+->List notation: (A B)
+Dot notation: (CAR . ((CDR . ((QUOTE . ((A . (B . (C . NIL))) . NIL)) . NIL)) . NIL))
+->List notation: B
+Dot notation: (PLUS . (1 . (1 . (2 . NIL))))
+ERROR: PLUS of Eval function is undefined -> The length of input (PLUS . (1 . (1 . (2 . NIL)))) is 4 instead of 3.
